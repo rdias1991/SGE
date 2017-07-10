@@ -1,0 +1,35 @@
+﻿body {
+background-image: url("teste.png");
+background-color: #7cbddb;
+
+
+}
+
+li {
+float: left;
+}
+
+#FormLogin{
+	
+	width: 250px;
+    padding: 25px;
+    margin: 100px;
+	margin-left: 550px;
+	border: 1px solid;
+	border-color: #FFFFFF;
+}
+
+#imgfundo{
+	border: 1 px solid transparent;
+	margin-left: 350px;
+}
+
+#imgldform{
+
+	max-width:100px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+	magin-left: float;
+	margin-top: 100px;
+}

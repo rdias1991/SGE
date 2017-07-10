@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, shrink-to-fit=no, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Coordenador</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="css/Coordenador.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Menu Principal
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Dashboard</a>
+                </li>
+                <li>
+                    <a href="#">Cadastro</a>
+                </li>
+                <li>
+                    <a href="#">Relatorios</a>
+                </li>
+                <li>
+                    <a href="#">Lançar Notas</a>
+                </li>
+                <li>
+                    <a href="#">Compartilhar Arquivos</a>
+                </li>
+                <li>
+                    <a href="#">Sobre</a>
+                </li>
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+  <nav class="navbar navbar-inverse"> 
+  <ul class="nav nav-pills">
+  <li role="presentation"><a href="#menu-toggle" id="menu-toggle"><img id="menuico" src="img/menu-icon.png"  border="0" </li></a>
+  <li role="presentation"><a href="#">Noticias</a></li>
+  <li role="presentation"><a href="#">Contato</a></li>
+  </ul>
+    </nav>
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+   
+
+</body>
+
+</html>
