@@ -33,3 +33,18 @@ float: left;
 	magin-left: float;
 	margin-top: 100px;
 }
+
+.div-square {
+    padding: 5px;
+    border: 3px double #000000;
+    -webkit-border-radius:8px;
+   -moz-border-radius:8px;
+    border-radius:8px;
+    margin:5px;
+
+	}
+
+	.div-square> a, .div-square> a:hover {
+    color:#808080;
+     text-decoration:none;
+	 }
